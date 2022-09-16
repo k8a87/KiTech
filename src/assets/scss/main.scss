@@ -1,6 +1,11 @@
+//Scroll margin
+section {
+  scroll-margin-top: 55px;
+}
 @import "./styles/scale-up";
 @import "./styles/projects";
 @import "./styles/skills";
 @import "./styles/nav";
 @import "./styles/variables";
+
 @import "~bootstrap/scss/bootstrap";
