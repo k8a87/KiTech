@@ -1,3 +1,92 @@
+#navTop {
+  opacity: .85;
+}
+
+#navTop .active, #navTop .nav-link:hover {
+  color: #00bebe;
+}
+
+a.nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  width: 40px;
+  height: 20px;
+  transition: all .5s ease-in-out;
+  position: relative;
+}
+
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+  box-shadow: none;
+  border: 0;
+  outline: none;
+}
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+
+.toggler-icon {
+  height: 3px;
+  width: 100%;
+  opacity: 1;
+  background: #00bebe;
+  border-radius: 1px;
+  transition: all .25s ease-in-out;
+  display: block;
+  position: absolute;
+  left: 0;
+  transform: rotate(0deg);
+}
+
+.middle-bar {
+  margin-top: 0;
+}
+
+.navbar-toggler .top-bar {
+  margin-top: 0;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity= 0);
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0;
+  transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -25px;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity= 100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 25px;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background: linear-gradient(90deg, #00bebe 0%, #53ebeb52 100%);
+}
+
+.nav--hidden {
+  transform: translateY(-500px);
+}
+
+#navbarSupportedContent, .show {
+  transition: transform .5s ease-in-out;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

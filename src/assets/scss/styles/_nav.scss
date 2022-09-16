@@ -1,0 +1,106 @@
+// Modify Nav links active and hover colours
+#navTop {
+  opacity: 85%;
+  .active {
+    color: $primary;
+  }
+  .nav-link {
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+// Modify Nav link colour
+a.nav-link {
+  color: white;
+}
+
+// Modify Nav burger
+.navbar-toggler {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+// remove bootstrap Nav toggler properties
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+
+// Custom class to create bars for new burger
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: $primary;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.middle-bar {
+  margin-top: 0px;
+}
+
+// State when navigation is clicked
+.navbar-toggler .top-bar {
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(-135deg);
+}
+
+// State when navbar is collapsed
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -25px;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 25px;
+  transform: rotate(0deg);
+}
+
+// colour of 3 lines
+.navbar-toggler.collapsed .toggler-icon {
+  background: linear-gradient(90deg, $primary 0%, $secondary 100%);
+}
+
+//Add smooth transition when navlinks are closed when hide navbar
+.nav--hidden {
+  transform: translateY(-500px);
+}
+#navbarSupportedContent {
+  transition: transform 0.5s ease-in-out;
+}
+.show {
+  transition: transform 0.5s ease-in-out;
+}
