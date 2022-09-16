@@ -1,3 +1,11 @@
+.scale-up {
+  transition: all .25s ease-in-out;
+}
+
+.scale-up:hover {
+  transform: scale(1.05);
+}
+
 #myprojects .card-img-overlay {
   opacity: 0;
   background-color: #00bebe2a;
