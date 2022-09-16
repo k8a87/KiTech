@@ -1,3 +1,11 @@
+#skills .fab {
+  font-size: 6vw;
+}
+
+#skills .link-dark :hover {
+  color: #fff;
+}
+
 #navTop {
   opacity: .85;
 }

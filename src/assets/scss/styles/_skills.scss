@@ -1,0 +1,12 @@
+//Responsive font size for skillset icons
+#skills {
+  .fab {
+    font-size: 6vw;
+  }
+  // Modify hover colour for github 'secret'link
+  .link-dark {
+    :hover {
+      color: white;
+    }
+  }
+}
