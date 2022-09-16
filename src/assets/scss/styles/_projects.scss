@@ -1,7 +1,9 @@
 //Overlay for projects
+@import "./variables";
+
 #myprojects {
   .card-img-overlay {
-    background-color: #00bebe2a;
+    background-color: $secondary;
     opacity: 0%;
     transition: all 0.75s ease-in-out;
     &:hover {
