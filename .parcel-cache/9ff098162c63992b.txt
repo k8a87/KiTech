@@ -1,4 +1,4 @@
-4625
+4631
 61C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\package.json133077589023069361 0
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\regions\BY.js121436361000000000 0
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\weak-lru-cache\rollup.config.js121436361000000000 0
@@ -14,7 +14,7 @@
 88C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\optimizer-svgo\src133077578299856745 1
 76C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\terser\LICENSE121436361000000000 0
 103C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\flexbox-gap.js121436361000000000 0
-53C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist133077612185487181 1
+53C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist133077620020280565 1
 90C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\domutils\lib\manipulation.js121436361000000000 0
 106C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\css-select\lib\pseudo-selectors\filters.d.ts121436361000000000 0
 111C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\once-event-listener.js121436361000000000 0
@@ -22,11 +22,6 @@
 111C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\css-tree\lib\syntax\node\PseudoElementSelector.js121436361000000000 0
 66C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\package-lock.json133077589029083994 0
 83C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\rollup.config.js121436361000000000 0
-90C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\nth-check\lib\compile.js.map121436361000000000 0
-112C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@jridgewell\sourcemap-codec\src\sourcemap-codec.ts121436361000000000 0
-86C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\detect-libc\package.json133077578469922815 0
-79C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\stable\index.d.ts131691405160000000 0
-93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\regions\KH.js121436361000000000 0
 92C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\postcss-value-parser\README.md121436361000000000 0
 94C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@jridgewell\set-array\dist\types133077578290880708 1
 74C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\assets\scss\main.scss133077610148712707 0
@@ -35,6 +30,14 @@
 71C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\term-size133077578486617212 1
 61C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules133077589010810674 1
 95C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\domelementtype\lib\index.d.ts.map121436361000000000 0
+83C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\css-tree\package.json133077578485978906 0
+79C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\util\when.js121436361000000000 0
+84C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\msgpackr\node-index.js121436361000000000 0
+93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\regions\JM.js121436361000000000 0
+106C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\css-exclusions.js121436361000000000 0
+80C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\assets\components\hero.html133077617256568817 0
+98C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@swc\helpers\src\_async_iterator.mjs121436361000000000 0
+84C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\to-regex-range\LICENSE121436361000000000 0
 79C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\assets\images\Moshify.webp133076699492677019 0
 95C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\css-tree\lib\syntax\node\Value.js121436361000000000 0
 74C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\import-fresh133077578486756822 1
@@ -65,7 +68,7 @@
 122C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\node.abi93.node121436361000000000 0
 103C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\css-nesting.js121436361000000000 0
 74C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite133077578470400581 1
-70C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\assets\components133077604825017416 1
+70C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\assets\components133077616634454336 1
 99C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\transformer-babel\lib\flow.js121436361000000000 0
 85C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\yaml\types\timestamp.js121436361000000000 0
 89C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\src\ordered-binary.cpp121436361000000000 0
@@ -74,8 +77,8 @@
 81C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\assets\images\keitaSelfy.png133076508268928690 0
 114C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\react-refresh\cjs\react-refresh-babel.development.js121436361000000000 0
 97C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\http2.js121436361000000000 0
-81C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\assets\scss\styles\_nav.scss133077612392304771 0
-63C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\index.html133077610056327911 0
+81C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\assets\scss\styles\_nav.scss133077619880857388 0
+63C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\index.html133077619919800897 0
 80C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\source-map133077578470998978 1
 100C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\transformer-babel\package.json133077578477571395 0
 104C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\packager-js\src\ESMOutputFormat.js121436361000000000 0
@@ -225,10 +228,6 @@
 114C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\document-currentscript.js121436361000000000 0
 81C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\src\assets\images\Moshify@2x.png133076694506326825 0
 105C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\bootstrap\scss\helpers\_stretched-link.scss121436361000000000 0
-83C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\.bin\browserslist.cmd133077578496430960 0
-117C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c121436361000000000 0
-100C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\utility-types\dist\mapped-types.js.map121436361000000000 0
-68C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\braces133077589005380628 1
 89C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\sass\types\value\color.d.ts121436361000000000 0
 91C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\entities\lib\maps\legacy.json121436361000000000 0
 91C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\svgo\plugins\removeDoctype.js121436361000000000 0
@@ -307,6 +306,10 @@
 122C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\keyboardevent-getmodifierstate.js121436361000000000 0
 87C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\terser\dist\bundle.min.js121436361000000000 0
 68C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\base-x133077578486736879 1
+83C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\.bin\browserslist.cmd133077578496430960 0
+117C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c121436361000000000 0
+100C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\utility-types\dist\mapped-types.js.map121436361000000000 0
+68C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\braces133077589005380628 1
 87C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\htmlparser2\lib\Parser.js121436361000000000 0
 74C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\browserslist133077578486742025 1
 150C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory\package.json121436361000000000 0
@@ -590,7 +593,7 @@
 88C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\msgpackr\dist\index.min.js121436361000000000 0
 98C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\ordered-binary\assets\powers-dre.png121436361000000000 0
 78C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\terser\lib\utils133077578341425559 1
-77C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\LightKLogo.c498f59b.png133077612185078292 0
+77C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\LightKLogo.c498f59b.png133077620019602393 0
 78C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\tslib\tslib.d.ts121436361000000000 0
 98C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\dialog.js121436361000000000 0
 106C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@jridgewell\set-array\dist\set-array.mjs.map121436361000000000 0
@@ -876,7 +879,7 @@
 77C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\xxhash-wasm\umd133077578309461025 1
 94C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\svgo\plugins\sortDefsChildren.js121436361000000000 0
 85C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\node-gyp-build\index.js121436361000000000 0
-75C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.e5ac7667.js.map133077612185148103 0
+75C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.e5ac7667.js.map133077620019841417 0
 104C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\css-tree\lib\syntax\function\expression.js121436361000000000 0
 86C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\svgo\lib\svgo\jsAPI.d.ts121436361000000000 0
 104C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\runtime-react-refresh\package.json133077578476401971 0
@@ -1095,6 +1098,7 @@
 97C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\type-fest\source\literal-union.d.ts121436361000000000 0
 111C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\core\test\fixtures\custom-targets-distdir133077578366236861 1
 90C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\bootstrap\js\src\dom\data.js121436361000000000 0
+78C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\LightKLogo.0d68c0d3.webp133077620019143600 0
 90C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\cosmiconfig\dist\readFile.js121436361000000000 0
 85C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\svgo\plugins\plugins.js121436361000000000 0
 82C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\json5\lib\require.js121436361000000000 0
@@ -1148,13 +1152,6 @@
 84C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\tslib\modules\index.js121436361000000000 0
 85C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\to-regex-range\index.js121436361000000000 0
 86C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\to-regex-range\README.md121436361000000000 0
-83C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\css-tree\package.json133077578485978906 0
-79C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\util\when.js121436361000000000 0
-84C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\msgpackr\node-index.js121436361000000000 0
-93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\regions\JM.js121436361000000000 0
-106C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\css-exclusions.js121436361000000000 0
-98C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@swc\helpers\src\_async_iterator.mjs121436361000000000 0
-84C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\to-regex-range\LICENSE121436361000000000 0
 89C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\to-regex-range\package.json133077589005035938 0
 111C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\link-rel-preconnect.js121436361000000000 0
 123C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\graph\test\integration\adjacency-list-shared-array.js121436361000000000 0
@@ -1377,6 +1374,11 @@
 90C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\source-map-support\README.md121436361000000000 0
 89C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\supports-color\package.json133077578485939020 0
 108C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\meta-theme-color.js121436361000000000 0
+90C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\nth-check\lib\compile.js.map121436361000000000 0
+112C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@jridgewell\sourcemap-codec\src\sourcemap-codec.ts121436361000000000 0
+86C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\detect-libc\package.json133077578469922815 0
+79C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\stable\index.d.ts131691405160000000 0
+93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\regions\KH.js121436361000000000 0
 88C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\picocolors\picocolors.d.ts121436361000000000 0
 87C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\package.json133077578469702460 0
 81C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\stable\package.json133077578485958988 0
@@ -1924,8 +1926,8 @@
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\runtime-js\package.json133077578476401971 0
 78C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\binding.gyp121436361000000000 0
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\regions\GL.js121436361000000000 0
-79C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\dependencies133077578360534416 1
 111C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c121436361000000000 0
+79C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\dependencies133077578360534416 1
 75C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\index.js121436361000000000 0
 95C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\url.js121436361000000000 0
 104C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@swc\helpers\lib\_await_async_generator.js121436361000000000 0
@@ -1988,8 +1990,8 @@
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\dependencies\lz4\lib\lz4.c121436361000000000 0
 103C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\textencoder.js121436361000000000 0
 98C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\dependencies\lz4\lib\lz4frame.c121436361000000000 0
-98C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\dependencies\lz4\lib\lz4frame.h121436361000000000 0
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\regions\YT.js121436361000000000 0
+98C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\lmdb\dependencies\lz4\lib\lz4frame.h121436361000000000 0
 98C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\core\lib\loadParcelPlugin.js121436361000000000 0
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\regions\TK.js121436361000000000 0
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\css-tree\lib\tokenizer\utils.js121436361000000000 0
@@ -2183,7 +2185,7 @@
 94C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\immutable\dist\immutable.js.flow121436361000000000 0
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\immutable\dist\immutable.min.js121436361000000000 0
 87C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\fs\lib\types.d.ts121436361000000000 0
-76C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.4717fcfd.css.map133077612185118186 0
+76C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.4717fcfd.css.map133077620019412889 0
 77C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\htmlparser2\lib133077578295039592 1
 106C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\features\xml-serializer.js121436361000000000 0
 81C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\htmlparser2\LICENSE121436361000000000 0
@@ -2242,6 +2244,7 @@
 96C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\htmlnano\docs\docusaurus.config.js121436361000000000 0
 91C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\cache\src\IDBCache.js121436361000000000 0
 85C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\htmlnano\docs\README.md121436361000000000 0
+81C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\LightKLogo@2x.b6a8a866.webp133077620019133638 0
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\caniuse-lite\data\regions\BS.js121436361000000000 0
 93C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@swc\helpers\src\_construct.mjs121436361000000000 0
 98C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\transformer-babel\lib\jsx.js121436361000000000 0
@@ -3457,7 +3460,7 @@
 82C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\browserslist\LICENSE121436361000000000 0
 82C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\browserslist\node.js121436361000000000 0
 87C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\browserslist\package.json133077578486059484 0
-72C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.4717fcfd.css133077612184729240 0
+72C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.4717fcfd.css133077620019323167 0
 83C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\browserslist\parse.js121436361000000000 0
 87C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@parcel\utils\src\hash.js121436361000000000 0
 115C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\index.js121436361000000000 0
@@ -4622,5 +4625,8 @@
 75C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\.bin\svgo.cmd133077578495742934 0
 73C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\.bin\terser133077578495912337 0
 77C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\node_modules\.bin\terser.ps1133077578495903299 0
-71C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.e5ac7667.js133077612185058347 0
-64C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.html133077612185467274 0
+71C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.e5ac7667.js133077620019761955 0
+64C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\index.html133077620020210750 0
+80C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\LightKLogo@2x.36276eac.png133077620019602393 0
+81C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\LightKLogo@3x.959cd54b.webp133077620019143600 0
+80C:\Users\iisak\Desktop\Keita's codes\keitaiisaka\dist\LightKLogo@3x.c1ff5ce4.png133077620019642268 0
