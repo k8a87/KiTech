@@ -3,12 +3,10 @@
 
 #myprojects {
   .card-img-overlay {
-    background-color: $secondary;
     opacity: 0%;
     transition: all 0.75s ease-in-out;
     &:hover {
       opacity: 100%;
-      transform: scale(1.05);
     }
   }
 }
