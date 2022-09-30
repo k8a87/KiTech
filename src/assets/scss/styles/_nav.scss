@@ -15,6 +15,10 @@
 a.nav-link {
   color: white;
 }
+// Add blur behind navbar
+.navbar {
+  backdrop-filter: blur(2px);
+}
 
 // Modify Nav burger
 .navbar-toggler {
