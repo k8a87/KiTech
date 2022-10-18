@@ -20,7 +20,8 @@
   "homepage": "https://github.com/k8a87/KiTech#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "sharp": "^0.29.3"
   },
   "dependencies": {
     "bootstrap": "^5.2.1"
