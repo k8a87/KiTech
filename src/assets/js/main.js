@@ -24,7 +24,7 @@ window.addEventListener("scroll", function () {
   navLinksEl.forEach((link) => {
     const targetSection = document.querySelector(link.getAttribute("href"));
     if (targetSection) {
-      const sectionTop = targetSection.offsetTop - 200; // Adjust the offset as needed
+      const sectionTop = targetSection.offsetTop - 250; // Adjust the offset as needed
       const sectionHeight = targetSection.offsetHeight;
 
       if (
@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", function () {
   navLinksEl.forEach((link) => {
     const targetSection = document.querySelector(link.getAttribute("href"));
     if (targetSection) {
-      const sectionTop = targetSection.offsetTop - 200; // Adjust the offset as needed
+      const sectionTop = targetSection.offsetTop - 250; // Adjust the offset as needed
       const sectionHeight = targetSection.offsetHeight;
 
       if (
