@@ -1,341 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Keita Iisaka Web Developer</title>
-	<!-- bootstrap CDN Only here for emmet access-->
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Keita Iisaka Web Developer</title>
+		<!-- bootstrap CDN Only here for emmet access-->
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
-	<link rel="stylesheet" href="./assets/scss/main.scss">
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-</head>
+		<link rel="stylesheet" href="./assets/scss/main.scss">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	</head>
 
-<body class="position-relative" data-bs-spy="scroll" data-bs-target="#navTop" data-bs-offset="100">
-	<!-- Navigation bar -->
-	<nav id="navTop"
-		class="navbar navbar-expand-md bg-black bg-opacity-75 navbar-light fixed-top border-primary border-bottom border-3">
-		<div class="container-xxl">
-			<a href="#hero" class="navbar-brand ">
-				<img class="d-inline-block align-top" src="./assets/images/LightKLogo.png?as=webp&width=55&height=55"
-					alt="navbarlogo" />
-			</a>
-			<button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around" type="button"
-				data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="toggler-icon top-bar"></span>
-				<span class="toggler-icon middle-bar"></span>
-				<span class="toggler-icon bottom-bar"></span>
-			</button>
-			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-				<ul class="navbar-nav py-5 py-sm-0 text-center">
-					<li class="nav-item mx-1">
-						<a class="nav-link" href="#hero">Home</a>
-					</li>
-					<li class="nav-item mx-1 ">
-						<a class="nav-link" href="#about">About me</a>
-					</li>
-					<li class="nav-item mx-1  ">
-						<a class="nav-link " href="#myprojects"> My projects </a>
-					</li>
-					<li class="nav-item mx-1  ">
-						<a class="nav-link " href="#contact"> Contact me </a>
-					</li>
-				</ul>
+	<body class="position-relative" data-bs-spy="scroll" data-bs-target="#navTop"
+		data-bs-offset="100">
+		<!-- Navigation bar -->
+		<nav id="navTop"
+			class="navbar navbar-expand-md bg-black bg-opacity-75 navbar-light fixed-top border-primary border-bottom border-3">
+			<div class="container-xxl">
+				<a href="#hero" class="navbar-brand ">
+					<img class="d-inline-block align-top"
+						src="./assets/images/LightKLogo.png?as=webp&width=55&height=55"
+						alt="navbarlogo" />
+				</a>
+				<button
+					class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around"
+					type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="toggler-icon top-bar"></span>
+					<span class="toggler-icon middle-bar"></span>
+					<span class="toggler-icon bottom-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end"
+					id="navbarSupportedContent">
+					<ul class="navbar-nav py-5 py-sm-0 text-center">
+						<li class="nav-item mx-1">
+							<a class="nav-link" href="#hero">Home</a>
+						</li>
+						<li class="nav-item mx-1 ">
+							<a class="nav-link" href="#about">About me</a>
+						</li>
+						<li class="nav-item mx-1  ">
+							<a class="nav-link " href="#myprojects"> My projects </a>
+						</li>
+						<li class="nav-item mx-1  ">
+							<a class="nav-link " href="#contact"> Contact me </a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<div class="bg-blur">
-		</div>
-	</nav>
-	<!-- Hero Section -->
-	<section id="hero" class="bg-gradient bg-primary text-white pt-5 animate__animated animate__jello">
-		<lottie-player class="card-img-overlay text-center justify-content-center"
-			src="https://lottie.host/310bd812-d169-4ba3-ac0b-0936f497a299/hp7CtL7DQp.json" background="transparent"
-			speed="1" style="width: 98vw; height: 100vh;" loop autoplay></lottie-player>
-		<div class="vh-100 container-fluid d-flex justify-content-center text-center">
-			<div class="row align-items-center justify-content-center justify-content-md-around">
-				<div class="col-8 col-md-4 col-lg-5 pt-5 mt-md-5 pt-md-1">
-					<picture>
+			<div class="bg-blur">
+			</div>
+		</nav>
+		<!-- Hero Section -->
+		<section id="hero"
+			class="bg-gradient bg-primary text-white pt-5 animate__animated animate__jello">
+			<lottie-player class="card-img-overlay text-center justify-content-center"
+				src="https://lottie.host/310bd812-d169-4ba3-ac0b-0936f497a299/hp7CtL7DQp.json"
+				background="transparent"
+				speed="1" style="width: 98vw; height: 100vh;" loop autoplay></lottie-player>
+			<div class="vh-100 container-fluid d-flex justify-content-center text-center">
+				<div
+					class="row align-items-center justify-content-center justify-content-md-around">
+					<div class="col-8 col-md-4 col-lg-5 pt-5 mt-md-5 pt-md-1">
+						<picture>
+							<source type="image/webp"
+								srcset="./assets/images/LightKLogo.png?as=webp&width=400, ./assets/images/LightKLogo.png?as=webp&width=800 2x, ./assets/images/LightKLogo.png?as=webp&width=1200 3x">
+							<source type="image/png"
+								srcset="./assets/images/LightKLogo.png?width=400, ./assets/images/LightKLogo.png?width=800 2x, ./assets/images/LightKLogo.png?width=1200 3x">
+							<img src="./assets/images/LightKLogo.png" alt="website logo"
+								class="img-fluid animate__animated animate__flip " />
+						</picture>
+					</div>
+					<div
+						class="col-10 col-md-5 col-lg-6 text-md-start animate__animated animate__zoomInDown  ">
+						<h1>
+							<div class="display-1">Keita Iisaka</div>
+							<div class="text-secondary"> Front-end Web Developer </div>
+						</h1>
+					</div>
+					<div class="col-12 d-lg-none text-center mb-5">
+						<p>Scroll Down</p>
+						<i class="fas fa-regular fa-angle-down"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- About section -->
+		<section id="about" class="bg-light">
+			<div class="container-lg py-5">
+				<div
+					class="row justify-content-around justify-content-lg-between align-items-center">
+					<div class="col-md-6 text-center text-md-start text-black mb-4 my-md-0">
+						<h2 class="pt-3">A little about me</h2>
+						<p class="lead"> Hi my name is Keita Iisaka and I'm a self taught web
+							developer! I picked up coding
+							a year and a half ago and I absolutely love it! Whilst working a full
+							time job I have been
+							gradually teaching myself all the neccesarry tools and methods to become
+							a front-end
+							web-developer. I really enjoy learning new concepts and methods and have
+							been utilising the
+							latest trends and conventions available to create fast and responsive
+							webpages. <br />Please
+							take a look below to see my completed projects.</p>
+						<a href="/src/assets/docs/CV Keita Iisaka.pdf" type="button"
+							class="btn btn-primary text-white rounded-pill my-3 my-md-0">Click here
+							to view CV</a>
+					</div>
+					<picture class="col-8  col-md-4">
 						<source type="image/webp"
-							srcset="./assets/images/LightKLogo.png?as=webp&width=400, ./assets/images/LightKLogo.png?as=webp&width=800 2x, ./assets/images/LightKLogo.png?as=webp&width=1200 3x">
+							srcset="./assets/images/keitaSelfy.jpg?as=webp&width=400, ./assets/images/keitaSelfy.jpg?as=webp&width=800 2x, ./assets/images/keitaSelfy.jpg?as=webp&width=1200 3x">
 						<source type="image/png"
-							srcset="./assets/images/LightKLogo.png?width=400, ./assets/images/LightKLogo.png?width=800 2x, ./assets/images/LightKLogo.png?width=1200 3x">
-						<img src="./assets/images/LightKLogo.png" alt="website logo"
-							class="img-fluid animate__animated animate__flip " />
+							srcset="./assets/images/keitaSelfy.jpg?as=png&width=400, ./assets/images/keitaSelfy.jpg?as=png&width=800 2x, ./assets/images/keitaSelfy.jpg?as=png&width=1200 3x">
+						<img class="img-fluid rounded-pill "
+							src="./assets/images/keitaSelfy.jpg?width=400"
+							alt="Picture of me">
 					</picture>
 				</div>
-				<div class="col-10 col-md-5 col-lg-6 text-md-start animate__animated animate__zoomInDown  ">
-					<h1>
-						<div class="display-1">Keita Iisaka</div>
-						<div class="text-secondary"> Front-end Web Developer </div>
-					</h1>
-				</div>
-				<div class="col-12 d-lg-none text-center mb-5">
-					<p>Scroll Down</p>
-					<i class="fas fa-regular fa-angle-down"></i>
+			</div>
+		</section>
+		<!-- Skills -->
+		<section id="skills" class="text-light text-center bg-primary">
+			<div class="h-75 container">
+				<div class="row justify-content-center pt-2 pb-3 gy-3 ">
+					<div class="col-3 ">
+						<i class="fab fa-brands fa-html5" data-aos="fade-down"></i>
+					</div>
+					<div class="col-3">
+						<i class="fab fa-brands fa-css3-alt" data-aos="fade-down"></i>
+					</div>
+					<div class="col-3">
+						<i class="fab fa-brands fa-js-square" data-aos="fade-down"></i>
+					</div>
+					<div class="col-3">
+						<i class="fab fa-brands fa-sass" data-aos="fade-down"></i>
+					</div>
+					<div class="col-3">
+						<i class="fab fa-brands fa-bootstrap" data-aos="fade-up"></i>
+					</div>
+					<div class="col-3">
+						<i class="fab fa-brands fa-node" data-aos="fade-up"></i>
+					</div>
+					<div class="col-3">
+						<a href="https://github.com/k8a87/KiTech" target="_blank"
+							class="link-dark" data-bs-toggle="tooltip"
+							data-bs-placement="right" title="Github link for this website!"><i
+								class="fab fa-brands fa-github" data-aos="fade-up"></i></a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- About section -->
-	<section id="about" class="bg-light">
-		<div class="container-lg py-5">
-			<div class="row justify-content-around justify-content-lg-between align-items-center">
-				<div class="col-md-6 text-center text-md-start text-black mb-4 my-md-0">
-					<h2 class="pt-3">A little about me</h2>
-					<p class="lead"> Hi my name is Keita Iisaka and I'm a self taught web developer! I picked up coding
-						a year and a half ago and I absolutely love it! Whilst working a full time job I have been
-						gradually teaching myself all the neccesarry tools and methods to become a front-end
-						web-developer. I really enjoy learning new concepts and methods and have been utilising the
-						latest trends and conventions available to create fast and responsive webpages. <br />Please
-						take a look below to see my completed projects.</p>
-					<a href="/src/assets/docs/CV Keita Iisaka.pdf" type="button"
-						class="btn btn-primary text-white rounded-pill my-3 my-md-0">Click here to view CV</a>
-				</div>
-				<picture class="col-8  col-md-4">
-					<source type="image/webp"
-						srcset="./assets/images/keitaSelfy.jpg?as=webp&width=400, ./assets/images/keitaSelfy.jpg?as=webp&width=800 2x, ./assets/images/keitaSelfy.jpg?as=webp&width=1200 3x">
-					<source type="image/png"
-						srcset="./assets/images/keitaSelfy.jpg?as=png&width=400, ./assets/images/keitaSelfy.jpg?as=png&width=800 2x, ./assets/images/keitaSelfy.jpg?as=png&width=1200 3x">
-					<img class="img-fluid rounded-pill " src="./assets/images/keitaSelfy.jpg?width=400"
-						alt="Picture of me">
-				</picture>
-			</div>
-		</div>
-	</section>
-	<!-- Skills -->
-	<section id="skills" class="text-light text-center bg-primary">
-		<div class="h-75 container">
-			<div class="row justify-content-center pt-2 pb-3 gy-3 ">
-				<div class="col-3 ">
-					<i class="fab fa-brands fa-html5" data-aos="fade-down"></i>
-				</div>
-				<div class="col-3">
-					<i class="fab fa-brands fa-css3-alt" data-aos="fade-down"></i>
-				</div>
-				<div class="col-3">
-					<i class="fab fa-brands fa-js-square" data-aos="fade-down"></i>
-				</div>
-				<div class="col-3">
-					<i class="fab fa-brands fa-sass" data-aos="fade-down"></i>
-				</div>
-				<div class="col-3">
-					<i class="fab fa-brands fa-bootstrap" data-aos="fade-up"></i>
-				</div>
-				<div class="col-3">
-					<i class="fab fa-brands fa-node" data-aos="fade-up"></i>
-				</div>
-				<div class="col-3">
-					<a href="https://github.com/k8a87/KiTech" target="_blank" class="link-dark" data-bs-toggle="tooltip"
-						data-bs-placement="right" title="Github link for this website!"><i
-							class="fab fa-brands fa-github" data-aos="fade-up"></i></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Projects section  -->
-	<section id="myprojects" class=" bg-black text-white ">
-		<div class="h-75 container-fluid py-5 text-center ">
-			<h2 class="py-3 h1 text-secondary ">My Projects</h2>
-			<div class="row justify-content-center ">
-				<div class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
-					data-aos="zoom-in-up">
-					<div class="container p-0">
-						<picture>
-							<source type="image/webp"
-								srcset="./assets/images/AlexAuto.png?as=webp&width=400, ./assets/images/AlexAuto.png?as=webp&width=800 2x">
-							<source type="image/png"
-								srcset="./assets/images/AlexAuto.png?width=400, ./assets/images/AlexAuto.png?width=800 2x">
-							<img src="./assets/images/AlexAuto.png?width=400" alt="Car detailing website"
-								class="card-img" />
-						</picture>
-						<div
-							class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
-							<a href="https://kicardetailing.netlify.app/" type="button"
-								class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
-								page</a>
-							<a href="https://github.com/k8a87/alexautodetail" type="button"
-								class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+		</section>
+		<!-- Projects section  -->
+		<section id="myprojects" class=" bg-black text-white ">
+			<div class="h-75 container-fluid py-5 text-center ">
+				<h2 class="py-3 h1 text-secondary ">My Projects</h2>
+				<div class="row justify-content-center ">
+					<div
+						class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
+						data-aos="zoom-in-up">
+						<div class="container p-0">
+							<picture>
+								<source type="image/webp"
+									srcset="./assets/images/AlexAuto.png?as=webp&width=400, ./assets/images/AlexAuto.png?as=webp&width=800 2x">
+								<source type="image/png"
+									srcset="./assets/images/AlexAuto.png?width=400, ./assets/images/AlexAuto.png?width=800 2x">
+								<img src="./assets/images/AlexAuto.png?width=400"
+									alt="Car detailing website"
+									class="card-img" />
+							</picture>
+							<div
+								class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
+								<a href="https://kicardetailing.netlify.app/" type="button"
+									class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
+									page</a>
+								<a href="https://github.com/k8a87/alexautodetail" type="button"
+									class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
-					data-aos="zoom-in-up">
-					<div class="container p-0">
-						<picture>
-							<source type="image/webp"
-								srcset="./assets/images/giuseppe.png?as=webp&width=400, ./assets/images/giuseppe.png?as=webp&width=800 2x">
-							<source type="image/png"
-								srcset="./assets/images/giuseppe.png?width=400, ./assets/images/giuseppe.png?width=800 2x">
-							<img src="./assets/images/giuseppe.png?width=400" alt="Giuseppe Bernardi's portfolio"
-								class="card-img" />
-						</picture>
-						<div
-							class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
-							<a href="https://giuseppebernardi.netlify.app/" type="button"
-								class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
-								page</a>
-							<a href="https://github.com/k8a87/Giuseppe-Bernardi" type="button"
-								class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+					<div
+						class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary "
+						data-aos="zoom-in-up">
+						<div class="container p-0">
+							<picture>
+								<source type="image/webp"
+									srcset="./assets/images/TechSite.png?as=webp&width=400, ./assets/images/TechSite.png?as=webp&width=800 2x">
+								<source type="image/png"
+									srcset="./assets/images/TechSite.png?width=400, ./assets/images/TechSite.png?width=800 2x">
+								<img src="./assets/images/TechSite.png?width=400"
+									alt="Crypto Website project"
+									class="card-img" />
+							</picture>
+							<div
+								class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
+								<a href="https://kingkay.netlify.app/" type="button"
+									class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
+									page</a>
+								<a href="https://github.com/k8a87/EcoTech" type="button"
+									class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary "
-					data-aos="zoom-in-up">
-					<div class="container p-0">
-						<picture>
-							<source type="image/webp"
-								srcset="./assets/images/TechSite.png?as=webp&width=400, ./assets/images/TechSite.png?as=webp&width=800 2x">
-							<source type="image/png"
-								srcset="./assets/images/TechSite.png?width=400, ./assets/images/TechSite.png?width=800 2x">
-							<img src="./assets/images/TechSite.png?width=400" alt="Crypto Website project"
-								class="card-img" />
-						</picture>
-						<div
-							class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
-							<a href="https://kingkay.netlify.app/" type="button"
-								class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
-								page</a>
-							<a href="https://github.com/k8a87/EcoTech" type="button"
-								class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+					<div
+						class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
+						data-aos="zoom-in-up">
+						<div class="container p-0">
+							<picture>
+								<source type="image/webp"
+									srcset="./assets/images/forkifyapp.png?as=webp&width=400, ./assets/images/forkifyapp.png?as=webp&width=800 2x">
+								<source type="image/png"
+									srcset="./assets/images/forkifyapp.png?width=400, ./assets/images/forkifyapp.png?width=800 2x">
+								<img src="./assets/images/forkifyapp.png?width=400" alt="Forkify app"
+									class="card-img" />
+							</picture>
+							<div
+								class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
+								<a href="https://ki-forkify.netlify.app/" type="button"
+									class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
+									page</a>
+								<a href="https://github.com/k8a87/forkifyapp" type="button"
+									class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
-					data-aos="zoom-in-up">
-					<div class="container p-0">
-						<picture>
-							<source type="image/webp"
-								srcset="./assets/images/NaughtsNCrosses.png?as=webp&width=400, ./assets/images/NaughtsNCrosses.png?as=webp&width=800 2x">
-							<source type="image/png"
-								srcset="./assets/images/NaughtsNCrosses.png?width=400, ./assets/images/NaughtsNCrosses.png?width=800 2x">
-							<img src="./assets/images/NaughtsNCrosses.png?width=400" alt="Noughts and crosses game"
-								class="card-img" />
-						</picture>
-						<div
-							class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
-							<a href="https://ki-noughtsncrosses.netlify.app/" type="button"
-								class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
-								page</a>
-							<a href="https://github.com/k8a87/NoughtsNCrosses" type="button"
-								class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+
+					<div
+						class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
+						data-aos="zoom-in-up">
+						<div class="container p-0">
+							<picture>
+								<source type="image/webp"
+									srcset="./assets/images/NaughtsNCrosses.png?as=webp&width=400, ./assets/images/NaughtsNCrosses.png?as=webp&width=800 2x">
+								<source type="image/png"
+									srcset="./assets/images/NaughtsNCrosses.png?width=400, ./assets/images/NaughtsNCrosses.png?width=800 2x">
+								<img src="./assets/images/NaughtsNCrosses.png?width=400"
+									alt="Noughts and crosses game"
+									class="card-img" />
+							</picture>
+							<div
+								class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
+								<a href="https://ki-noughtsncrosses.netlify.app/" type="button"
+									class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
+									page</a>
+								<a href="https://github.com/k8a87/NoughtsNCrosses" type="button"
+									class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
-					data-aos="zoom-in-up">
-					<div class="container p-0">
-						<picture>
-							<source type="image/webp"
-								srcset="./assets/images/GuessMyNumber.png?as=webp&width=400, ./assets/images/GuessMyNumber.png?as=webp&width=800 2x">
-							<source type="image/png"
-								srcset="./assets/images/GuessMyNumber.png?width=400, ./assets/images/GuessMyNumber.png?width=800 2x">
-							<img src="./assets/images/GuessMyNumber.png?width=400" alt="Guess the number game"
-								class="card-img" />
-						</picture>
-						<div
-							class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
-							<a href="https://ki-guessthenumber.netlify.app/" type="button"
-								class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
-								page</a>
-							<a href="https://github.com/k8a87/GuessNumberGame" type="button"
-								class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+					<div
+						class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
+						data-aos="zoom-in-up">
+						<div class="container p-0">
+							<picture>
+								<source type="image/webp"
+									srcset="./assets/images/GuessMyNumber.png?as=webp&width=400, ./assets/images/GuessMyNumber.png?as=webp&width=800 2x">
+								<source type="image/png"
+									srcset="./assets/images/GuessMyNumber.png?width=400, ./assets/images/GuessMyNumber.png?width=800 2x">
+								<img src="./assets/images/GuessMyNumber.png?width=400"
+									alt="Guess the number game"
+									class="card-img" />
+							</picture>
+							<div
+								class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
+								<a href="https://ki-guessthenumber.netlify.app/" type="button"
+									class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
+									page</a>
+								<a href="https://github.com/k8a87/GuessNumberGame" type="button"
+									class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5">GitHub</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
-					data-aos="zoom-in-up">
-					<div class="container p-0">
-						<picture>
-							<source type="image/webp"
-								srcset="./assets/images/PigGame.png?as=webp&width=400, ./assets/images/PigGame.png?as=webp&width=800 2x">
-							<source type="image/png"
-								srcset="./assets/images/PigGame.png?width=400, ./assets/images/PigGame.png?width=800 2x">
-							<img src="./assets/images/PigGame.png?width=400" alt="pig game" class="card-img" />
-						</picture>
-						<div
-							class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
-							<a href="https://ki-piggame.netlify.app/" type="button"
-								class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
-								page</a>
-							<a href="https://github.com/k8a87/PigGame" type="button"
-								class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5 ">GitHub</a>
+					<div
+						class="col-8 col-sm-5 col-lg-3 mx-3 gy-3 gy-lg-5 card my-3 p-0 border-primary"
+						data-aos="zoom-in-up">
+						<div class="container p-0">
+							<picture>
+								<source type="image/webp"
+									srcset="./assets/images/PigGame.png?as=webp&width=400, ./assets/images/PigGame.png?as=webp&width=800 2x">
+								<source type="image/png"
+									srcset="./assets/images/PigGame.png?width=400, ./assets/images/PigGame.png?width=800 2x">
+								<img src="./assets/images/PigGame.png?width=400" alt="pig game"
+									class="card-img" />
+							</picture>
+							<div
+								class="card-img-overlay bg-secondary bg-opacity-25 scale-up justify-content-around  align-content-end align-content-md-center fw-bold lead row ">
+								<a href="https://ki-piggame.netlify.app/" type="button"
+									class="col-8 col-md-5 col-lg-6 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-5 mb-md-5">View
+									page</a>
+								<a href="https://github.com/k8a87/PigGame" type="button"
+									class="col-8 col-md-5 col-lg-5 col-xl-4 btn btn-sm bg-primary rounded-pill shadow text-nowrap text-light mb-0 mb-md-5 ">GitHub</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Contacts section  -->
-	<section id="contact">
-		<div class="container-fluid py-5 bg-primary ">
-			<div class="row justify-content-center">
-				<div class=" col-10 col-md-4 rounded-5 shadow-lg m-3 text-center position-relative" data-aos="zoom-in">
-					<span
-						class="position-absolute top-0 start-0 translate-middle p-2 border border-light  rounded-circle bg-secondary">
-						<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_u25cckyh.json"
-							background="transparent" speed="1" style="width: 5.5vw; height: 5.5vw;" loop autoplay>
-						</lottie-player>
-					</span>
-					<div class="p-3 scale-up ">
-						<h2 class="py-3">Contact details:</h2>
-						<a href="mailto:iisak8a@gmail.com" type="button"
-							class="btn btn-lg btn-secondary scale-up rounded-pill shadow my-2 w-100 my-md-3">Email:
-							iisak8a@gmail.com</a><br>
-						<a href="tel:07772723332" type="button"
-							class="btn btn-lg btn-secondary scale-up rounded-pill btn-outline shadow  my-2 w-100 my-md-3">Call:
-							+44(0)7772723332</a><br>
-						<a href="https://www.google.com/maps/place/London/@51.528308,-0.3817765,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"
-							target="_blank" type="button"
-							class="btn btn-lg btn-secondary scale-up rounded-pill shadow  my-2 w-100 my-md-3">Location:
-							London, UK</a>
+		</section>
+		<!-- Contacts section  -->
+		<section id="contact">
+			<div class="container-fluid py-5 bg-primary ">
+				<div class="row justify-content-center">
+					<div
+						class=" col-10 col-md-4 rounded-5 shadow-lg m-3 text-center position-relative"
+						data-aos="zoom-in">
+						<span
+							class="position-absolute top-0 start-0 translate-middle p-2 border border-light  rounded-circle bg-secondary">
+							<lottie-player
+								src="https://assets2.lottiefiles.com/packages/lf20_u25cckyh.json"
+								background="transparent" speed="1" style="width: 5.5vw; height: 5.5vw;"
+								loop autoplay>
+							</lottie-player>
+						</span>
+						<div class="p-3 scale-up ">
+							<h2 class="py-3">Contact details:</h2>
+							<a href="mailto:iisak8a@gmail.com" type="button"
+								class="btn btn-lg btn-secondary scale-up rounded-pill shadow my-2 w-100 my-md-3">Email:
+								iisak8a@gmail.com</a><br>
+							<a href="tel:07772723332" type="button"
+								class="btn btn-lg btn-secondary scale-up rounded-pill btn-outline shadow  my-2 w-100 my-md-3">Call:
+								+44(0)7772723332</a><br>
+							<a
+								href="https://www.google.com/maps/place/London/@51.528308,-0.3817765,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"
+								target="_blank" type="button"
+								class="btn btn-lg btn-secondary scale-up rounded-pill shadow  my-2 w-100 my-md-3">Location:
+								London, UK</a>
+						</div>
+					</div>
+					<form action="https://formspree.io/f/xoqbeqdn" method="post"
+						class="contact-card col-10 col-md-4 rounded-5 shadow-lg m-3 position-relative"
+						data-aos="zoom-in">
+						<span
+							class="position-absolute top-0 start-100 translate-middle p-2 border border-light  rounded-circle bg-secondary">
+							<lottie-player
+								src="https://lottie.host/1bd4b90e-8ade-418b-8566-b2d849c8ab10/us5arJ6b6Q.json"
+								background="transparent" speed="1" style="width: 5.5vw; height: 5.5vw;"
+								loop autoplay>
+							</lottie-player>
+						</span>
+						<div class="p-3 scale-up">
+							<h2 class="py-3 text-center">...or send me a message</h2>
+							<div class="my-3">
+								<label for="exampleFormControlInput1" class="form-label">Your email
+									address</label>
+								<input name="email" type="email" class="form-control"
+									id="exampleFormControlInput1"
+									placeholder="name@example.com" maxlength="30">
+							</div>
+							<div class="mb-3">
+								<label for="exampleFormControlTextarea1" class="form-label">Message</label>
+								<textarea name="message" class="form-control"
+									id="exampleFormControlTextarea1" rows="3"
+									placeholder="Leave me a message here and I'll get back to you soon!"
+									maxlength="200"></textarea>
+							</div>
+							<button type="submit"
+								class="w-100 btn btn-lg btn-secondary scale-up rounded-pill shadow my-3 w-100">
+								Send
+							</button>
+						</div>
 					</div>
 				</div>
-				<form action="https://formspree.io/f/xoqbeqdn" method="post"
-					class="contact-card col-10 col-md-4 rounded-5 shadow-lg m-3 position-relative" data-aos="zoom-in">
-					<span
-						class="position-absolute top-0 start-100 translate-middle p-2 border border-light  rounded-circle bg-secondary">
-						<lottie-player src="https://lottie.host/1bd4b90e-8ade-418b-8566-b2d849c8ab10/us5arJ6b6Q.json"
-							background="transparent" speed="1" style="width: 5.5vw; height: 5.5vw;" loop autoplay>
-						</lottie-player>
-					</span>
-					<div class="p-3 scale-up">
-						<h2 class="py-3 text-center">...or send me a message</h2>
-						<div class="my-3">
-							<label for="exampleFormControlInput1" class="form-label">Your email address</label>
-							<input name="email" type="email" class="form-control" id="exampleFormControlInput1"
-								placeholder="name@example.com" maxlength="30">
-						</div>
-						<div class="mb-3">
-							<label for="exampleFormControlTextarea1" class="form-label">Message</label>
-							<textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"
-								placeholder="Leave me a message here and I'll get back to you soon!"
-								maxlength="200"></textarea>
-						</div>
-						<button type="submit"
-							class="w-100 btn btn-lg btn-secondary scale-up rounded-pill shadow my-3 w-100"> Send
-						</button>
-					</div>
-			</div>
-		</div>
-	</section>
-	<script type="module" src="./assets/js/main.js"></script>
-	<!-- JavaScript Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-		crossorigin="anonymous"></script>
-	<!-- Font awesome kit -->
-	<script src="https://kit.fontawesome.com/e25f9f83a1.js" crossorigin="anonymous"></script>
-	<!-- Animation on scroll -->
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
+			</section>
+			<script type="module" src="./assets/js/main.js"></script>
+			<!-- JavaScript Bundle with Popper -->
+			<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+				crossorigin="anonymous"></script>
+			<!-- Font awesome kit -->
+			<script src="https://kit.fontawesome.com/e25f9f83a1.js"
+				crossorigin="anonymous"></script>
+			<!-- Animation on scroll -->
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script>
 		AOS.init();
 	</script>
-	<!-- Lottie files -->
-	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-</body>
+			<!-- Lottie files -->
+			<script
+				src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		</body>
 
-</html>
+	</html>
